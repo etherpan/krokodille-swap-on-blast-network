@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Krokodille| DEX</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/app.css">
+	<link rel="shortcut icon" href="images/favicon.png">
+</head>
+<body class="farming-page">
+   <header>
+      <div class="container-fluid">
+	     <div class="header-container d-flex align-items-center justify-content-between">
+		    <a href="#" class="logo"><img class="main-logo" src="images/logo.png"/><img class="icon-only" src="images/favicon.png"/></a>
+			<div class="header-right d-flex align-items-center">
+			   <div class="chain-selector">
+			      <div class="selected-chain">
+				     <img src="images/app/blast.svg"/>
+					 <span>Blast</span>
+				  </div>
+			   </div>
+			   <a href="#" class="btn btn-blue normal">Connect <span class="hide-w">Wallet</span></a>
+			   <a href="javascript:void(0)" id="menu-toggle"><i class="fa-solid fa-bars"></i></a>
+			</div>
+		 </div>
+	  </div>
+   </header>
+   <section class="main-app">
+      <div class="left-dex">
+	     <div class="left-box">
+	        <div class="left-dex-inner">
+			   <ul class="main-menu">
+			     <li>
+				   <a href="#"><svg viewBox="0 0 24 24" color="primary" width="20px" xmlns="http://www.w3.org/2000/svg" class="sc-4ba21b47-0 dZBpkj"><path d="M21.2628 15.8306C21.5556 16.1235 21.5556 16.5983 21.2628 16.8912L18.654 19.5H20.3789C20.7931 19.5 21.1289 19.8358 21.1289 20.25C21.1289 20.6642 20.7931 21 20.3789 21L16.8433 21C16.4291 21 16.0933 20.6642 16.0933 20.25V16.7145C16.0933 16.3002 16.4291 15.9645 16.8433 15.9645C17.2575 15.9645 17.5933 16.3002 17.5933 16.7145V18.4393L20.2021 15.8306C20.495 15.5377 20.9699 15.5377 21.2628 15.8306Z"></path><path d="M2.81293 7.78034C3.10583 8.07323 3.5807 8.07323 3.87359 7.78034L6.48235 5.17158L6.48235 6.89645C6.48235 7.31067 6.81814 7.64645 7.23235 7.64645C7.64656 7.64645 7.98235 7.31067 7.98235 6.89645L7.98235 3.36092C7.98235 3.16201 7.90333 2.97124 7.76268 2.83059C7.62203 2.68994 7.43126 2.61092 7.23235 2.61092L3.69682 2.61092C3.2826 2.61092 2.94682 2.9467 2.94682 3.36092C2.94682 3.77513 3.2826 4.11092 3.69682 4.11092H5.42169L2.81293 6.71968C2.52004 7.01257 2.52004 7.48744 2.81293 7.78034Z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M8.46203 20.5622C8.66377 20.5827 8.86846 20.5932 9.07561 20.5932C12.3893 20.5932 15.0756 17.9069 15.0756 14.5932C18.3893 14.5932 21.0756 11.9069 21.0756 8.59315C21.0756 5.69362 19.0189 3.27448 16.2847 2.71504C15.9185 2.64011 15.5402 2.59853 15.153 2.59363C15.1272 2.5933 15.1014 2.59314 15.0755 2.59314C11.7618 2.59314 9.07549 5.27943 9.07549 8.59314C5.76179 8.59314 3.07549 11.2794 3.07549 14.5931C3.07549 17.5962 5.28172 20.0839 8.16175 20.524C8.26107 20.5392 8.36118 20.5519 8.46203 20.5622ZM5.07549 14.5931C5.07549 12.384 6.86636 10.5931 9.07549 10.5931C9.19246 10.5931 9.30806 10.5981 9.42214 10.6079C10.0255 12.3008 11.3678 13.6431 13.0607 14.2465C13.0705 14.3606 13.0755 14.4762 13.0755 14.5931C13.0755 16.8023 11.2846 18.5931 9.07549 18.5931C6.86636 18.5931 5.07549 16.8023 5.07549 14.5931ZM11.0755 8.59314C11.0755 6.384 12.8664 4.59314 15.0755 4.59314C17.2846 4.59314 19.0755 6.384 19.0755 8.59314C19.0755 10.8023 17.2846 12.5931 15.0755 12.5931C12.8664 12.5931 11.0755 10.8023 11.0755 8.59314Z"></path></svg>Trade</a>
+				 </li>
+			     <li class="parent">
+				    <a href="#">
+					  <svg viewBox="0 0 24 24" color="primaryBright" width="20px" xmlns="http://www.w3.org/2000/svg" class="sc-4ba21b47-0 bHyJnV"><path fill-rule="evenodd" clip-rule="evenodd" d="M11.4063 19.9329C12.066 19.9329 12.6742 19.779 13.207 19.5106V21.6632C12.6449 21.8378 12.0415 21.9329 11.4063 21.9329H7.00792C2.52538 21.9329 -0.374267 17.1964 1.66429 13.2043L3.70684 9.20426C4.30576 8.03138 5.25922 7.11243 6.39803 6.55101L5.46396 4.68288C5.08785 3.93066 5.54693 3.02913 6.3765 2.89087L11.6153 2.01773C12.5647 1.8595 13.3292 2.78847 12.9912 3.68962L11.9333 6.51092C13.1087 7.06815 14.094 8.00302 14.7074 9.20426L16.6114 12.9329H14.3657L12.9261 10.1138C12.2427 8.77534 10.8666 7.93292 9.36372 7.93292H9.05047C7.54759 7.93292 6.17153 8.77534 5.48805 10.1138L3.4455 14.1138C2.08646 16.7753 4.01956 19.9329 7.00792 19.9329H11.4063ZM10.6623 4.20415L7.70695 4.69671L8.32504 5.93291H10.014L10.6623 4.20415Z"></path><path d="M14.707 13.9329C14.4309 13.9329 14.207 14.1568 14.207 14.4329V15.4329C14.207 15.7091 14.4309 15.9329 14.707 15.9329H20.707C20.9832 15.9329 21.207 15.7091 21.207 15.4329V14.4329C21.207 14.1568 20.9832 13.9329 20.707 13.9329H14.707Z"></path><path d="M15.207 17.4329C15.207 17.1568 15.4309 16.9329 15.707 16.9329H21.707C21.9832 16.9329 22.207 17.1568 22.207 17.4329V18.4329C22.207 18.7091 21.9832 18.9329 21.707 18.9329H15.707C15.4309 18.9329 15.207 18.7091 15.207 18.4329V17.4329Z"></path><path d="M14.707 19.9329C14.4309 19.9329 14.207 20.1568 14.207 20.4329V21.4329C14.207 21.7091 14.4309 21.9329 14.707 21.9329L20.707 21.9329C20.9832 21.9329 21.207 21.7091 21.207 21.4329V20.4329C21.207 20.1568 20.9832 19.9329 20.707 19.9329L14.707 19.9329Z"></path><path d="M9.9212 9.93292C9.9212 9.51871 9.58541 9.18292 9.1712 9.18292C8.75699 9.18292 8.4212 9.51871 8.4212 9.93292V10.2471C7.4372 10.4874 6.70692 11.3749 6.70692 12.4329C6.70692 13.6756 7.71427 14.6829 8.95691 14.6829H9.64423C10.0043 14.6829 10.3136 14.9388 10.381 15.2926C10.469 15.7548 10.1147 16.1829 9.64423 16.1829H8.89883C8.62969 16.1829 8.38118 16.0387 8.24765 15.805L8.1081 15.5608C7.90259 15.2012 7.44445 15.0762 7.08481 15.2817C6.72517 15.4872 6.60023 15.9454 6.80573 16.305L6.94528 16.5492C7.26526 17.1092 7.80531 17.4979 8.4212 17.6317V17.9329C8.4212 18.3471 8.75699 18.6829 9.1712 18.6829C9.58541 18.6829 9.9212 18.3471 9.9212 17.9329V17.6662C11.1913 17.5114 12.101 16.3061 11.8545 15.0119C11.6524 13.9507 10.7245 13.1829 9.64423 13.1829H8.95691C8.5427 13.1829 8.20692 12.8471 8.20692 12.4329C8.20692 12.0187 8.5427 11.6829 8.95691 11.6829H9.44357C9.71272 11.6829 9.96123 11.8271 10.0948 12.0608L10.2343 12.305C10.4398 12.6647 10.898 12.7896 11.2576 12.5841C11.6172 12.3786 11.7422 11.9205 11.5367 11.5608L11.3971 11.3166C11.0771 10.7566 10.5371 10.3679 9.9212 10.2341V9.93292Z"></path></svg>
+					  Earn
+					  <svg xmlns="http://www.w3.org/2000/svg" class="d-down" width="12px" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"/></svg>
+				    </a>
+					<ul class="sub-menu">
+					   <li><a href="#">Farm</a></li>
+					   <li><a href="#">Pools</a></li>
+					</ul>
+				 </li>
+			     <li>
+				    <a href="#"><svg viewBox="0 0 512 512" color="primaryBright" width="16px" xmlns="http://www.w3.org/2000/svg" class="sc-4ba21b47-0 gOAZCN"><g transform="translate(0.000000,512.000000) scale(0.100000,-0.100000)" stroke="none"><path d="M2321 5110 c-497 -48 -990 -251 -1376 -565 -114 -92 -294 -274 -384 -387 -229 -287 -417 -675 -495 -1023 -49 -218 -60 -325 -60 -575 0 -250 11 -357 60 -575 79 -355 272 -749 509 -1040 92 -114 274 -294 387 -384 287 -229 675 -417 1023 -495 218 -49 325 -60 575 -60 250 0 357 11 575 60 261 58 603 204 828 353 389 259 688 599 893 1016 125 255 196 484 241 775 24 161 24 539 0 700 -45 291 -116 520 -241 775 -134 272 -283 480 -498 692 -211 209 -404 346 -673 478 -252 124 -486 197 -765 240 -126 19 -468 27 -599 15z m539 -655 c623 -105 1137 -483 1420 -1044 131 -262 194 -538 194 -851 0 -254 -30 -431 -114 -661 -191 -524 -615 -948 -1139 -1139 -230 -84 -407 -114 -661 -114 -254 0 -431 30 -661 114 -524 191 -948 615 -1139 1139 -84 230 -114 407 -114 661 0 254 30 431 114 661 191 524 615 948 1139 1139 157 57 291 88 501 114 71 9 368 -4 460 -19z"></path><path d="M2400 3506 c-312 -59 -562 -246 -700 -524 -133 -269 -132 -575 1 -845 235 -476 807 -671 1281 -437 193 96 342 244 437 437 133 270 134 576 1 845 -164 332 -504 542 -870 537 -47 -1 -114 -7 -150 -13z"></path></g></svg>Staking</a>
+				  </li>
+			     <li>
+				   <a href="#"><svg viewBox="0 0 100 100" color="primaryBright" width="16px" xmlns="http://www.w3.org/2000/svg" class="sc-4ba21b47-0 gOAZCN"><path d="M96.1,81.4h-9.8V42c0-0.8-0.6-1.4-1.4-1.4H73c-0.8,0-1.4,0.6-1.4,1.4v39.4H57.3V42c0-0.8-0.6-1.4-1.4-1.4H44 c-0.8,0-1.4,0.6-1.4,1.4v39.4H28.4V42c0-0.8-0.6-1.4-1.4-1.4H15.1c-0.8,0-1.4,0.6-1.4,1.4v39.4H3.9c-0.8,0-1.4,0.6-1.4,1.4v11.9 c0,0.8,0.6,1.4,1.4,1.4h92.2c0.8,0,1.4-0.6,1.4-1.4V82.8C97.5,82,96.9,81.4,96.1,81.4z"></path><path d="M96.6,20.1l-45.4-16c-0.7-0.3-1.5-0.3-2.3,0l-45.4,16c-0.6,0.2-0.9,0.7-0.9,1.3v12.3c0,0.8,0.6,1.4,1.4,1.4h92.2 c0.8,0,1.4-0.6,1.4-1.4V21.4C97.5,20.8,97.1,20.3,96.6,20.1z"></path></svg>Capital</a>
+				 </li>
+				 <li>
+				   <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16px" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>Follow X</a>
+				 </li>
+				 <li>
+				   <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16px" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>Join Channel</a>
+				 </li>
+			   </ul>
+		    </div>
+		 </div>
+	  </div>
+      <div class="dex-app">
+	      <div class="inner-wrapper">
+		      <!--start farming-->
+			  <div class="farming-container">
+			     <div class="farming-title d-flex align-items-center">
+				    <div class="farm-headings">
+					   <h3>Welcome to Blaststake Capital</h3>
+					   <h4>Blaststake Capital is the decentralized reserve currency protocol available on the Arbitrum network based on the DCP token.</h4>
+					</div>
+				 </div>
+				 <div class="capital-menu">
+				    <ul>
+					   <li class="active"><a href="#">Info</a></li>
+					   <li><a href="#">Bond</a></li>
+					   <li><a href="#">Vault</a></li>
+					</ul>
+				 </div>
+				 <div class="info-box-container">
+				    <div class="row">
+					   <div class="col-lg-4">
+					      <div class="info-box">
+						     <h3>BLZ Price</h3>
+							 <h4>$10.00</h4>
+						  </div>
+					   </div>
+					   <div class="col-lg-4">
+					      <div class="info-box">
+						     <h3>Market Cap</h3>
+							 <h4>$35,902,554.006</h4>
+						  </div>
+					   </div>
+					   <div class="col-lg-4">
+					      <div class="info-box">
+						     <h3>Circulating Supply</h3>
+							 <h4>10 Millions</h4>
+						  </div>
+					   </div>
+					   <div class="col-lg-4">
+					      <div class="info-box">
+						     <h3>Backing per BLZ</h3>
+							 <h4>$1</h4>
+						  </div>
+					   </div>
+					   <div class="col-lg-4">
+					      <div class="info-box">
+						     <h3>Current Index</h3>
+							 <h4>1 BLZ</h4>
+						  </div>
+					   </div>
+					   <div class="col-lg-4">
+					      <div class="info-box">
+						     <h3>Treasury Balance</h3>
+							 <h4>$10,000</h4>
+						  </div>
+					   </div>
+					</div>
+				 </div>
+			  </div>
+			  <!--end farming-->
+		  </div>
+	  </div>
+   </section>
+   <div class="ba-page-bg">
+	<div class="ba-shape show-for-medium">
+		<svg class="ba-shape__svg" width="1121" height="682" viewBox="0 0 1121 682" xmlns="http://www.w3.org/2000/svg" data-bg-shape="" style="fill: var(--color, rgba(252,252,3,1));">
+			<g opacity="0.1" filter="url(#filter0_f)">
+				<path data-bg-shape-path="" d="M247 586.501C162.2 619.301 117 540.168 105 496.501C116.5 479.168 158.5 430.201 234.5 373.001C329.5 301.501 280 223.001 354.5 141.001C429 59.001 581.554 248.652 686 209.001C1010 86.001 915.855 266.784 949.5 357.001C996 499.001 1030.37 559.555 963.5 580.501C873.108 608.817 626 349.501 542.5 326.001C459 302.501 353 545.501 247 586.501Z"></path>
+			</g>
+			<defs>
+				<filter id="filter0_f" x="-15" y="0.203125" width="1135.85" height="714.054" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+					<feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+					<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"></feBlend>
+					<feGaussianBlur stdDeviation="60" result="effect1_foregroundBlur"></feGaussianBlur>
+				</filter>
+			</defs>
+		</svg>
+	</div>
+	<svg class="ba-grid" width="1280" height="720" viewBox="0 0 1280 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M0 0H1280V720H0V0Z" fill="#121418"></path>
+		<rect width="1280" height="720" fill="#121418"></rect>
+		<rect width="1280" height="720" fill="url(#paint0_radial_grid)" fill-opacity="0.05"></rect>
+		<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1280" height="720">
+			<rect width="1280" height="720" fill="url(#paint1_radial)"></rect>
+		</mask>
+		<g mask="url(#mask0)">
+			<rect opacity="0.3" x="66.2778" y="-10.3008" width="112.778" height="740.6" stroke="#373B40"></rect>
+			<rect opacity="0.3" x="297.389" y="-10.3008" width="112.778" height="740.6" stroke="#373B40"></rect>
+			<rect opacity="0.3" x="528.5" y="-10.3008" width="112.778" height="740.6" stroke="#373B40"></rect>
+			<rect opacity="0.3" x="759.611" y="-10.3008" width="112.778" height="740.6" stroke="#373B40"></rect>
+			<rect opacity="0.3" x="990.722" y="-10.3008" width="112.778" height="740.6" stroke="#373B40"></rect>
+			<rect opacity="0.3" x="1221.83" y="-10.3008" width="112.778" height="740.6" stroke="#373B40"></rect>
+			<rect opacity="0.3" x="0.5" y="58.0996" width="1279" height="117.8" stroke="#373B40"></rect>
+			<rect opacity="0.3" x="0.5" y="295.699" width="1279" height="117.8" stroke="#373B40"></rect>
+			<rect opacity="0.3" x="0.5" y="533.299" width="1279" height="117.8" stroke="#373B40"></rect>
+		</g>
+		<defs>
+			<radialGradient id="paint0_radial_grid" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(674.667 334.8) rotate(90) scale(385.2 684.8)">
+				<stop offset="0" stop-color="#5FC9F8"></stop>
+				<stop offset="1" stop-color="#5FC9F8" stop-opacity="0"></stop>
+			</radialGradient>
+			<radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(640 335.7) rotate(90) scale(384.3 1045.3)">
+				<stop offset="0" stop-color="#121418"></stop>
+				<stop offset="1" stop-color="#121418" stop-opacity="0"></stop>
+			</radialGradient>
+		</defs>
+	</svg>
+   </div>
+   <div class="backdrop"></div>
+   <script type="text/javascript" src="js/jquery.js"></script>	
+   <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+   <script>
+   const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+   const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+   const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+   const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+   </script>
+   <script>
+   jQuery(function($){
+      $('.selected-chain').click(function(e){
+	     e.stopPropagation();
+	     $('.chain-list').slideToggle(200);
+	  });
+	  $('.main-menu li.parent').click(function(e){
+	     e.stopPropagation();
+	     $('.sub-menu').slideToggle(200);
+	  });
+	  $(document).click(function() {
+        $('.chain-list:visible').slideUp(200);
+		$('.community-list').slideUp(200);
+      });
+	  $('#menu-toggle').click(function(){
+	     $('.left-dex').slideToggle(200);
+	  });
+	  $('.farm-expand').each(function(){
+	     $(this).click(function(){
+		      $(this).parents('.farming-item').find('.farming-expanded').slideToggle(50);
+		 });
+	  });
+	  $('#unstake-btn').click(function(e){
+	     e.stopPropagation();
+	     $('.unstake-wrapper').show();
+	  });
+	  $('.close-unstake').click(function(e){
+	     e.stopPropagation();
+	     $('.unstake-wrapper').hide();
+	  });
+	  $('.pool-calc-btn').click(function(e){
+	     e.stopPropagation();
+	     $('.pool-calc-wrapper').show();
+	  });
+	  $('.close-poolcalc').click(function(e){
+	     e.stopPropagation();
+	     $('.pool-calc-wrapper').hide();
+	  });
+	  $('.selected-sort').click(function(){
+	     $('.sort-ul').slideToggle(200);
+	  });
+   });
+   </script>
+</body>
+</html>
