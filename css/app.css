@@ -327,6 +327,30 @@ header{
    background:rgba(255,255,255,0.01);
    height: 100%;
    border-radius:6px;
+   position:relative;
+}
+.socials{
+	position:absolute;
+	bottom:15px;
+	padding:0 20px;
+	width:100%;
+}
+.socials li{
+	float:left;
+	margin-right:15px;
+}
+.socials li:last-child{
+	margin-right:0;
+}
+.socials li a{
+	display:block;
+}
+.socials li a svg{
+	fill:#fff;
+}
+.s-ttl{
+	font-size: 11px;
+    color: #7f8fa4;
 }
 .inner-wrapper{
 	padding-top:80px;
@@ -869,7 +893,7 @@ header{
 	padding-top:20px;
 	border-top:1px solid rgba(255,255,255,0.15);
 	display: grid;
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: 1fr;
     grid-template-rows: max-content;
     grid-auto-flow: row;
 	gap: 15px 50px;
